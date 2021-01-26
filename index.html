@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Teste Psicologia</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1 id="texto">PRESSIONE ENTER</h1>
+        <p id="informacao">Para realizar o teste, pressione enter quantas vezes possível quando o texto "Pressione Enter" aparecer na tela, ao fim do teste o resultado será enviado para o email do psicólogo.</p>
+        <div id="btn" class="btn">Começar Teste</div>
+        <form id="form">
+            <p>Informe seus dados para finalizar o teste</p>
+            <p id="alert" class="alert">Preencha todos os campos corretamente</p>
+            <div>   
+                <label for="nome">Nome:</label>
+                <input id="fnome" name="nome" type="text" placeholder="João Silva" value="">   
+            </div>
+            <div>
+                <label for="tel">Telefone:</label>
+                <input id="ftel" name="tel" type="text" placeholder="(DDD) 98888-9999" value="">
+            </div>
+            
+            <div>
+                <div id="btn_form" class="btn_form">Enviar</div>
+            </div>
+        </form>
+        <script src="js/script.js"></script>
+    </body>
+</html>
